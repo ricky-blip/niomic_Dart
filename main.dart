@@ -1,4 +1,3 @@
 void main() {
-  // komentar 
-  print('Hello Ricky Rinaldy');
+  print("HELLO MEI 11 2022");
 }
