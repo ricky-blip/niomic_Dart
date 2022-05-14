@@ -20,6 +20,6 @@ void main() {
   String gabung = 'Nama saya adalah ' + kutipSatu;
   String gabung2 = 'Hari ini adalah $hariIni';
   
-  String jumlahString = 'Jumlah String ${kutipDua.length}';
+  String jumlahString = 'Jumlah String kutipDua adalah :  ${kutipDua.length}';
   print(jumlahString);
 }
