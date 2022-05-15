@@ -1,7 +1,7 @@
 void main() {
   // Literals
   int umur = 18;
-  double phi = 22.7;
+  double pi = 22.7;
   String nama = "rock";
   bool on = true;
 
