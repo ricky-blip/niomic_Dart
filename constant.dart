@@ -7,8 +7,8 @@ void main() {
   print(name2);
 
   //keyword const
-  final nomor = 77;
-  final int number = 007;
+  const nomor = 77;
+  const int number = 007;
 
   print(nomor);
   print(number);
