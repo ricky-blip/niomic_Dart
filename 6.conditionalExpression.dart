@@ -1,12 +1,12 @@
 void main() {
   // NOTE --> condition ? expression1IfTrue : expression2IfFalse
 
-  // print("Hasil dari 10 + 15 = 25");
+  print("Hasil dari 10 + 15 = 25");
 
-  // int hasil = 25;
+  int hasil = 25;
 
-  // String hasilJawaban = hasil == 99 ? 'Jawaban Anda BENAR!' : 'Jawaban Anda SALAH!';
-  // print("$hasilJawaban");
+  String hasilJawaban = hasil == 99 ? 'Jawaban Anda BENAR!' : 'Jawaban Anda SALAH!';
+  print("$hasilJawaban");
 
 
   // FIXME --> expression1 ?? expression2
