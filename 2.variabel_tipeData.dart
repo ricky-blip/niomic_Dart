@@ -2,6 +2,7 @@ void main() {
   // number: int
   int age = 17;
   // var age = 17.5;
+  int? n;
 
   // number: double
   // double age = 17.5;
@@ -21,4 +22,5 @@ void main() {
   print(name);
   print("Kehidupan: ");
   print(isAlive);
+  print("membuat NULL $n");
 }
