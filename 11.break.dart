@@ -1,13 +1,14 @@
 void main() {
-  outerLoop: for (int i = 1; i <= 3; i++) { 
-    innerLoop: for (int j = 1; j <=3; j++) { 
-      print("Out $i | In $j"); 
+  Outer: for (int i = 1; i <= 3; i++) {
+    Inner1: for (int j = 1; j <= 3; j++) {
+      Inner2: for (int x = 1; x <= 3; x++) {
 
-      if (i == 2 && j == 2) {
-        break outerLoop;
+        print("$i $j $x");
+
+          if (i == 2 && j == 2 && x == 2) {
+            break Outer;
+          }
       }
     }
   }
-  
-  print("Break Looping Luar ke-2 dan dalam ke-2");
 }
