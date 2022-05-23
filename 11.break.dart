@@ -1,7 +1,7 @@
 void main() {
   Outer: for (int i = 1; i <= 3; i++) {
-    Inner1: for (int j = 1; j <= 3; j++) {
-      Inner2: for (int x = 1; x <= 3; x++) {
+    for (int j = 1; j <= 3; j++) {
+      for (int x = 1; x <= 3; x++) {
 
         print("$i $j $x");
 
