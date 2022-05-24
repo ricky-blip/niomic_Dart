@@ -4,12 +4,11 @@ void main() {
    * 
    * [return type] function_name(parameter) => expression;
   */
-  print(myPet());
+  print(nomorRumah());
 
-  luasPersegiPanjang(5,5);
+  print(pertambahan(9, 9));
 }
 
-String myPet() => "BonBon";
+int nomorRumah() => 418;
 
-void luasPersegiPanjang(int panjang, int lebar) =>
-    print("Luas = ${panjang * lebar}"); 
+int pertambahan(int angka1,int angka2) => angka1 + angka2;
